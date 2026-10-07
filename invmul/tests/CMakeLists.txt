@@ -1,0 +1,7 @@
+add_executable(test_invmul_forward test_forward.cpp)
+target_link_libraries(test_invmul_forward PRIVATE invmul)
+add_test(NAME invmul_forward_multiply COMMAND test_invmul_forward)
+
+add_executable(test_invmul_invert test_invert.cpp)
+target_link_libraries(test_invmul_invert PRIVATE invmul)
+add_test(NAME invmul_corrective_factoring COMMAND test_invmul_invert)

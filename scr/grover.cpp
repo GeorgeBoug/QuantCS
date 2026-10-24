@@ -35,6 +35,7 @@ namespace qcs{
             for(int q=0; q<num_qubits; ++q){
                 circuit.h(q);
             }
+            circuit.phase_flip(0);
             for(int q=0; q<num_qubits; ++q){
                 circuit.h(q);
             }

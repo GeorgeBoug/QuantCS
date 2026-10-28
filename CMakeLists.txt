@@ -50,9 +50,9 @@ endif()
 
 # Core simulator library, shared by the demo binary, tests, and benchmarks.
 add_library(quantcs
-    src/state_vector.cpp
-    src/circuit.cpp
-    src/grover.cpp
+    scr/state_vector.cpp
+    scr/circuit.cpp
+    scr/grover.cpp
 )
 target_include_directories(quantcs PUBLIC include)
 target_link_libraries(quantcs PUBLIC OpenMP::OpenMP_CXX)

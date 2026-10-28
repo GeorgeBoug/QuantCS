@@ -76,6 +76,5 @@ add_subdirectory(benchmarks)
 
 # --- invmul: bidirectional array multiplier / factoring by local search ---
 # A self-contained module that shares this build (compiler settings, OpenMP,
-# CTest) but neither links against nor modifies the simulator above. See
-# invmul/README.md.
+# CTest) but neither links against nor modifies the simulator above.
 add_subdirectory(invmul)

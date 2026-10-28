@@ -1,7 +1,7 @@
 #include "quantcs/circuit.hpp"
 #include <stdexcept>
 
-namespace qf{
+namespace qcs{
 
     Circuit::Circuit(int num_qubits):num_qubits_(num_qubits){
         if(num_qubits<=0){

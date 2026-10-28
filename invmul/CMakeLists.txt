@@ -6,8 +6,8 @@
 # only names files inside invmul/.
 
 add_library(invmul
-    scr/multiplier.cpp
-    scr/solver.cpp
+    src/multiplier.cpp
+    src/solver.cpp
 )
 target_include_directories(invmul PUBLIC include)
 target_link_libraries(invmul PUBLIC OpenMP::OpenMP_CXX)

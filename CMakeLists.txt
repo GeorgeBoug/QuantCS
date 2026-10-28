@@ -61,13 +61,13 @@ if(MSVC)
 endif()
 
 if(QUANTCS_CUDA_ENABLED)
-    target_sources(quantcs PRIVATE src/cuda/state_vector_gpu.cu)
+    target_sources(quantcs PRIVATE scr/cuda/state_vector_gpu.cu)
     target_compile_definitions(quantcs PUBLIC QUANTCS_WITH_CUDA)
     set_target_properties(quantcs PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
 endif()
 
 # Demo command-line binary: builds and prints a Bell state.
-add_executable(quantcs_demo src/main.cpp)
+add_executable(quantcs_demo scr/main.cpp)
 target_link_libraries(quantcs_demo PRIVATE quantcs)
 
 enable_testing()

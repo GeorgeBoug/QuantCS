@@ -95,7 +95,7 @@
 // cliff. 3.0 sits in the middle of the flat region.
 //
 // -------------------------------------------------------------------------
-// What the measurements actually say (see invmul/README.md for the data)
+// What the measurements actually say
 // -------------------------------------------------------------------------
 // Being honest about this matters more than the machinery looking good:
 //

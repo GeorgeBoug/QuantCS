@@ -1,4 +1,4 @@
-#include "QuantCS/circuit.hpp"
+#include "quantcs/circuit.hpp"
 #include <iostream>
 
 int main(){
